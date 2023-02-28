@@ -1,0 +1,193 @@
+/*Navigation bar, line 12 - 26*/
+.top-navigation-bar {
+	display: flex;
+	flex-direction: row;
+	height: 8vh;
+	background-color: purple;
+	align-items: center;
+	padding: 5px;
+	border-radius: 25px;
+	border: solid 1px whitesmoke;
+}
+
+.top-navigation-bar-item {
+	margin: 10px;
+	font-size: 18px;
+	color: whitesmoke;
+}
+
+.top-navigation-bar-item a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.top-navigation-bar-item span {
+	cursor: pointer;
+}
+
+.top-navigation-bar-item button {
+	background: none;
+	border: none;
+	color: whitesmoke;
+}
+
+.header-logo {
+	flex-grow: 1;
+}
+
+.header-logo img {
+	border-radius: 25px;
+}
+
+.sided-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.sided-container-item {
+	margin: 4vh 3px;
+	background-color: whitesmoke;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 25px;
+}
+
+#left-container {
+	flex-basis: 70vw;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.your-order {
+	margin: 5px;
+	color: purple;
+}
+
+.order-each {
+	display: flex;
+	flex-direction: row;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15)
+		0px 0px 0px 1px;
+	/*height: 30vh;*/
+	border-radius: 25px;
+	margin: 5px;
+}
+
+.picture-item, .concurrent, .delete-item {
+	color: purple;
+	margin: 5px;
+}
+
+.picture-item {
+	flex-basis: 20vw;
+}
+
+.concurrent {
+	flex-basis: 70vw;
+	overflow-y: hidden;
+	height: 30vh;
+}
+
+.concurrent-each {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.concurrent-each-item {
+	margin: 5px;
+}
+
+.description {
+	flex-grow: 1;
+}
+
+#right-container {
+	flex-basis: 30vw;
+	height: 55vh;
+}
+
+.checkout-box {
+	color: purple;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.checkout-box button {
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	border-radius: 25px;
+	background-color: purple;
+	color: whitesmoke;
+	border-radisu: 25px;
+	height: 30px;
+}
+
+.checkout-box button:hover {
+	background-color: whitesmoke;
+	color: purple;
+}
+
+span {
+	cursor: pointer;
+}
+
+.checkout-box-item {
+	height: 25vh;
+}
+
+.empty-cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.empty-cart-item {
+	margin: 20px;
+}
+
+.picture-item img {
+	border-radius: 25px;
+}
+
+.delete-item button {
+	background: none;
+	border: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.sided-container {
+		flex-direction: column;
+	}
+	
+	
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px none;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border: 2px purple solid;
+	background: whitesmoke;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: purple;
+}

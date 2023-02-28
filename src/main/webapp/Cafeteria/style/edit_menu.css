@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+body {
+	/*background-color: rgb(228, 233, 247);*/
+	background-color: whitesmoke;
+}
+
+.modal-content {
+	display: flex;
+	flex-direction: row;
+	background-color: #fefefe;
+	margin: 10% auto;
+	padding: 20px;
+	/*border: 1px solid #888;*/
+	border-radius: 25px;
+	width: 40%;
+	height: 35%;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px
+		13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.the-update-menu {
+	height: 45%;
+}
+
+.the-update-menu input {
+	margin-top: 10px;
+}
+
+.model-picture {
+	width: 40%;
+}
+
+.model-picture img {
+	width: 100%;
+	height: 90%;
+}
+
+.model-content-item {
+	margin: 5px;
+}
+
+.model-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: black;
+	width: 60%;
+}
+
+.model-form input, select {
+	width: 100%;
+	border-radius: 25px;
+	height: 30px;
+}
+
+.model-form input[type="submit"], .the-modal-category input[type="submit"]
+	{
+	background-color: #61116a;
+	color: whitesmoke;
+	cursor: pointer;
+}

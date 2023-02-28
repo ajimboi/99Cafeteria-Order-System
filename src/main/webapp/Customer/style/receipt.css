@@ -1,0 +1,103 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	padding: 0px 5px;
+}
+
+h1 {
+	color: purple;
+}
+
+td, th {
+	text-align: left;
+	padding: 8px;
+	color: purple;
+}
+
+.top-banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.right-banner {
+	display: flex;
+	flex-direction: column;
+	color: purple;
+	justify-content: space-between;
+}
+
+.seperator {
+	display: flex;
+	flex-direction: row;
+}
+
+.seperator-item {
+	width: 60vw;
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	margin: 5px;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.payment {
+	width: 30vw;
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+	height: 35vh;
+}
+
+.payment-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 10px;
+}
+
+.payment-details-item input {
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	margin: 5px 0px;
+	width: 100%;
+	border: 1px solid purple;
+}
+
+.cv {
+	margin: 5px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.cv-item {
+	margin: 2px;
+}
+
+.cv input {
+	border: 1px solid purple;
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	margin: 5px 0px;
+	width: 95%;
+}
+
+.payment-details-item button {
+	cursor: pointer;
+	border: 1px solid purple;
+	border-radius: 25px;
+	height: 30px;
+	position: absolute;
+	right: 100px;
+}
+
+.payment-details-item button:hover {
+	background-color: purple;
+	color: whitesmoke;
+	border: 1px solid black;
+}
